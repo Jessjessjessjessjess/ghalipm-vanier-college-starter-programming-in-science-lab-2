@@ -5,7 +5,7 @@ def calculate_height(h0, t):
     gravity =9.8
     t= float(input("Enter time: "))
     height= (h0)-(((gravity)*(t**2))/2)
-    print("height")
+    print(f"{height}")
 
 # Function 2: Calculate the distance traveled by the car
 # This function should take the time t as input and return the distance traveled by the car.
@@ -13,4 +13,4 @@ def calculate_car_distance(t):
     speed =20
     time= float(input("Enter time for car (in seconds): "))
     distance= speed*time
-    print("distance")
+    print(f"{distance}")
